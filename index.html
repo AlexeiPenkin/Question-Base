@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
 </head>
@@ -76,7 +79,143 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+
+            <div class="main__container">
+
+                <header class="header">
+                    <div class="header__navbar">
+                        <a href="#" class="header__navbar-link">How it works</a>
+                        <a href="#" class="header__navbar-link">Pricing</a>
+                        <a href="#" class="header__navbar-link">Benefits</a>
+                    </div>
+                    <button class="header__button">SIGN UP</button>
+                </header>
+
+                <section class="intro">
+                    <div class="intro__photos">
+                        <img src="./img/intro_image-left.png" alt="img" class="intro__photo">
+                        <img src="./img/intro_image-right.png" alt="img" class="intro__photo">
+                    </div>
+                    <h1 class="intro__title">Scale knowledge</h1>
+                    <p class="intro__text">
+                        Question Base is a new kind of knowledge base. Powered by AI it answers your team’s questions inside Slack. Automatically.
+                    </p>
+                    <button class="intro__button">SIGN UP</button>
+                </section>
+
+                <div class="quote-ceo">
+                    <p class="quote-ceo__text">“Growing fast requires fast answers."</p>
+                    <span class="quote-ceo__span">— Kasper, CEO Question Base</span>
+                </div>
+
+                <section class="slack">
+                    <img src="./img/slack_message-example.png" alt="img" class="slack__message-example">
+                    <div class="slack__info">
+                        <h2 class="slack__info-title">Instant answers inside Slack.</h2>
+                        <p class="slack__info-text">
+                            Question Base actively monitors the conversation and discretely answers people when a new question is posted.
+                        </p>
+                        <p class="slack__info-comment">
+                            Questions Base AI identifies when a question is posted and provides an answer within 3 sec.
+                        </p>
+                        <img src="./img/slack_info-photo.png" alt="img" class="slack__info-photo">
+                    </div>
+                </section>
+
+                <div class="pricing">
+                    <h2 class="pricing__title">Pricing</h2>
+                    <p class="pricing__text">
+                        Question Base is currently in beta and is free for this time period. There will always be a 30 days no commitment trial and we expect to announce pricing for teams of all sizes in 2023.
+                    </p>
+                </div>
+
+                <div class="quote-cso">
+                    <p class="quote-cso__text">
+                        “No tiers, no complexity. Pay only for what you use.”
+                    </p>
+                    <span class="quote-cso__span">— Yana, CSO Question Base</span>
+                </div>
+
+                <section class="benefits">
+                    <img src="./img/benefits_icon.svg" alt="icon" class="benefits__icon">
+                    <h2 class="benefits__title">
+                        Most team leads spend their time answering the same questions over and over. Not anymore.
+                    </h2>
+                    <div class="benefits__cards">
+                        <div class="benefits__card scale">
+                            <span class="benefits__card-number">01</span>
+                            <h3 class="benefits__card-heading">Scale up knowledge</h3>
+                            <p class="benefits__card-text">
+                                Your Slack contains a wealth of knowledge. Question Base’s AI uncovers and surfaces these insights to your team.
+                            </p>
+                        </div>
+
+                        <div class="benefits__card reduce">
+                            <span class="benefits__card-number">02</span>
+                            <h3 class="benefits__card-heading">Reduce interruptions</h3>
+                            <p class="benefits__card-text">
+                                Let people get the answers they need without interrupting the work of others. Right from inside Slack.
+                            </p>
+                        </div>
+
+                        <div class="benefits__card grow">
+                            <span class="benefits__card-number">03</span>
+                            <h3 class="benefits__card-heading">Grow Organically</h3>
+                            <p class="benefits__card-text">
+                                There’s no extra work involved. Once you add Question Base to a Slack channel it will automatically start answering to questions.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="form">
+                    <img src="./img/form_img.png" alt="img" class="form__img">
+                    <div class="form__wrapper">
+                        <h2 class="form__wrapper-title">Scale knowledge effortlessly.</h2>
+                        <p class="form__wrapper-text">
+                            We are gradually rolling out Question Base to teams. Leave your contacts and be the first to know.
+                        </p>
+                        <fieldset class="form__wrapper-inputs">
+                            <input type="text" class="form__wrapper-input">
+                            <input type="text" class="form__wrapper-input">
+                            <input type="text" class="form__wrapper-input">
+                        </fieldset>
+                        <div class="form__wrapper-agreement">
+                            <div class="checkbox">
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" name="color-1" value="indigo">
+                                    <span class="wrapper-agreement-span">
+                                        I agree with Question Base's Privacy Policy
+                                    </span>
+                                </label>
+                              </div>
+                        </div>
+                        <button class="form__wrapper-btn">SEND</button>
+                    </div>
+                </section>
+
+                <footer class="footer">
+                    <div class="footer__wrapper">
+                        <div class="footer__socials">
+                            <img src="./img/footer_social-linkedin-icn.png" alt="icon" class="footer__social">
+                            <img src="./img/footer_social-instagram-icn.png" alt="icon" class="footer__social">
+                        </div>
+                        <img src="./img/footer_line.png" alt="img" class="footer__line">
+                        <div class="footer__copyright">
+                            <p class="footer__copyright-trademark">
+                                © Question Base 2022 • Created in Denmark
+                            </p>
+                            <div class="footer__copyright-navbar">
+                                <a href="#" class="copyright-navbar-link">Support</a>
+                                <a href="#" class="copyright-navbar-link">Privacy Policy</a>
+                                <a href="#" class="copyright-navbar-link">Terms of Use</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+
 		</div>
 </body>
 </html>
